@@ -26,7 +26,7 @@ This repository houses the complete, production-grade source code, asset pipelin
 | **EOI Token** | From ₹ 2 Lakhs (Priority Selection) |
 | **Possession** | August 2032 |
 | **MahaRERA Registration** | **PR1260002502426** |
-| **Primary Sales Advisor** | Manish Rai (+91 96730 00053) |
+| **Primary Sales Advisor** | Neeraj Giri (+91 96730 00053) |
 
 ---
 
@@ -68,7 +68,7 @@ flowchart TD
     H --> J[Instant Email Alert to Sales Desk]
     
     G --> K[Pre-filled WhatsApp Deep Link]
-    K --> L[Advisor Manish Rai: +91 96730 00053]
+    K --> L[Advisor Neeraj Giri: +91 96730 00053]
     
     G --> M[Success Toast Notification]
 ```
@@ -154,6 +154,6 @@ For complete corporate handover documentation, refer to the detailed reports bel
 ## 📞 Support & Handover Contacts
 
 - **Authorized Marketing Partner**: 24k Realtors Hinjewadi
-- **Primary Sales Advisor**: Manish Rai (`+91 96730 00053`)
+- **Primary Sales Advisor**: Neeraj Giri (`+91 96730 00053`)
 - **Official WhatsApp**: [wa.me/919673000053](https://wa.me/919673000053)
 - **MahaRERA Portal**: [maharera.mahaonline.gov.in](https://maharera.mahaonline.gov.in) (PR1260002502426)

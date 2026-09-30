@@ -211,7 +211,7 @@ If updating phone numbers or email addresses across all templates:
 | :--- | :--- | :--- | :--- |
 | **Phone Link** | `index.html` | `tel:+919673000053` | Header, Hero, Floating Bar, Mobile CTA |
 | **WhatsApp Link** | `index.html` | `https://wa.me/919673000053` | Floating Button, Sticky CTA, Footer |
-| **Advisor Name** | `index.html` | `Manish Rai` | Chat widget avatar & advisor badge |
+| **Advisor Name** | `index.html` | `Neeraj Giri` | Chat widget avatar & advisor badge |
 | **Advisor Config** | `js/main.js` | `ADVISOR` object | Global JS contact points |
 
 ---
@@ -265,7 +265,7 @@ If connecting an official company domain:
 
 | System / Account | Current Access Holder | Handover Action Required | Status |
 | :--- | :--- | :--- | :--- |
-| **GitHub Repository** | `24krealtorshinjewadi-blip` | Add collaborator `manishrai99-afk` or generate PAT | ⚠️ Pending Access |
+| **GitHub Repository** | `24krealtorshinjewadi-blip` | Add collaborator `manishrai99-afk` or generate PAT | ✅ Access Granted & Transferred |
 | **Google Sheet** | Client / Developer Account | Create sheet using `Code.gs` & deploy Web App | 📋 Ready for Setup |
 | **WhatsApp Number** | `+91 96730 00053` | Verify WhatsApp Business app routing | ✅ Operational |
 | **MahaRERA Record** | Godrej Properties | Verify PR1260002502426 validity on portal | ✅ Verified |
@@ -274,8 +274,8 @@ If connecting an official company domain:
 
 ## 9. Support & Escalation Contacts
 
-For technical queries regarding this handover package:
+For queries regarding this portal and project sales:
+- **Primary Sales Advisor:** Neeraj Giri (`+91 96730 00053`)
 - **Lead Developer & Engineering Handover:** Manish Rai
-- **Email:** manishrajapakar@gmail.com
-- **Direct Phone:** +91 96730 00053
+- **Developer Email:** manishrajapakar@gmail.com
 - **Company:** 24k Realtors Hinjewadi

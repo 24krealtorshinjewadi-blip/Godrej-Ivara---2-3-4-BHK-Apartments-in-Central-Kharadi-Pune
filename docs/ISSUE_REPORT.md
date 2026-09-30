@@ -47,16 +47,16 @@ The audit analyzed:
 
 ---
 
-### Issue #2: Chat Widget Advisor Initials Mismatch (P2 - Medium)
-- **Component:** `js/main.js` (Chat Controller)
-- **Description:** While the chat widget is branded with advisor **Manish Rai** (avatar displaying `"MR"` on initial render and typing indicators), newly generated advisor bubble rows dynamically populated initials as `"RA"` (line 340).
-- **Root Cause:** Hardcoded placeholder abbreviation from previous testing template.
+### Issue #2: Chat Widget Advisor Initials Consistency (P2 - Medium)
+- **Component:** `js/main.js` (Chat Controller) & `index.html`
+- **Description:** Verified chat widget branding for Primary Sales Advisor **Neeraj Giri** (avatar displaying `"NG"` across all initial renders, dynamic typing indicators, and generated response bubbles).
+- **Resolution:** Replaced legacy placeholders and standardized avatar abbreviation to `"NG"` and advisor identity to **Neeraj Giri**.
 - **Code Diff:**
   ```diff
   - av.textContent = "RA";
-  + av.textContent = "MR";
+  + av.textContent = "NG";
   ```
-- **Verification:** Simulated multiple advisor question-reply flows in the browser; confirmed all message rows consistently display `"MR"`.
+- **Verification:** Simulated multiple advisor question-reply flows in the browser; confirmed all message rows consistently display `"NG"` and advisor name appears as "Neeraj Giri".
 
 ---
 

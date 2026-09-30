@@ -109,7 +109,7 @@ This Master Test Report provides formal validation of all functional components,
 ### Module 7: Interactive Property Advisor Chat Widget
 | Test ID | Test Scenario | Expected Result | Actual Result | Status |
 | :--- | :--- | :--- | :--- | :---: |
-| **TC-30** | Click floating "Chat with us" button | Toggles open `.chat-panel` with advisor Manish Rai | Chat panel opens smoothly | **PASS** |
+| **TC-30** | Click floating "Chat with us" button | Toggles open `.chat-panel` with advisor Neeraj Giri | Chat panel opens smoothly | **PASS** |
 | **TC-31** | Click close button (`&times;`) on chat header | Closes panel and updates `aria-expanded="false"` | Chat closes properly | **PASS** |
 | **TC-32** | Click action "🏷️ Pricing & Floor Plans" | Adds user bubble, shows typing indicator, replies with pricing | Typing animation → rich pricing reply | **PASS** |
 | **TC-33** | Click action "📄 Download Brochure" | Replies with brochure summary & CTA bubble | Shows reply & "Share My Details →" button | **PASS** |

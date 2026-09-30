@@ -321,7 +321,7 @@ const chatReplies = {
   callback: {
     userMsg: "Get A Call Back",
     botMsg: `📞 <strong>Call Back within 5 Minutes!</strong><br>
-• Speak directly with Manish Rai<br>
+• Speak directly with Neeraj Giri<br>
 • Get personalised pricing guidance<br>
 • All queries answered on call<br>
 • Available: Mon–Sun, 9 AM – 9 PM<br>
@@ -337,7 +337,7 @@ function addChatMessage(html, isUser = false) {
   if (!isUser) {
     const av = document.createElement("span");
     av.className = "chat-msg-avatar";
-    av.textContent = "MR";
+    av.textContent = "NG";
     row.appendChild(av);
   }
 
@@ -366,7 +366,7 @@ function handleChatAction(actionKey) {
   // Add bot typing indicator then reply
   const typingRow = document.createElement("div");
   typingRow.className = "chat-msg-row advisor";
-  typingRow.innerHTML = `<span class="chat-msg-avatar">MR</span><p class="chat-bubble chat-typing"><span></span><span></span><span></span></p>`;
+  typingRow.innerHTML = `<span class="chat-msg-avatar">NG</span><p class="chat-bubble chat-typing"><span></span><span></span><span></span></p>`;
   chatBody.insertBefore(typingRow, document.getElementById("chatActions"));
   chatBody.scrollTop = chatBody.scrollHeight;
 
@@ -381,7 +381,7 @@ function handleChatAction(actionKey) {
 
       const av = document.createElement("span");
       av.className = "chat-msg-avatar";
-      av.textContent = "MR";
+      av.textContent = "NG";
 
       const ctaBubble = document.createElement("p");
       ctaBubble.className = "chat-bubble chat-cta-bubble";
